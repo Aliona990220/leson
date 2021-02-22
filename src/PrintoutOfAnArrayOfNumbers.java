@@ -1,8 +1,8 @@
 public class PrintoutOfAnArrayOfNumbers {
     public static void main(String[] args) {
-        int[] numbers = new int[]{1,2,3,4,5};
-        for (int i = 0; i < 6; i++) {
-            System.out.println(numbers.length + "=" + i);
+        int[] numbers = new int[]{5,4,3,2,1};
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(i + "-" + numbers[i]);
         }
     }
 }
