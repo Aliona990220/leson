@@ -24,6 +24,6 @@ public class PrimitiveDataTypes {
             System.out.print(i);     // тіло цикла.
             i++;
         }
-        
+
     }
 }
