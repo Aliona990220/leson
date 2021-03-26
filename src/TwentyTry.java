@@ -4,106 +4,106 @@ import java.util.List;
 
 public class TwentyTry {
     public static void main(String[] args) {
-//        ArrayList<String> i = new ArrayList<String>();
-//        i.add("2");
-//        i.add("3");
-//        i.add("4");
-//        for (String y:i) {
-//            System.out.println(i);
-//        }
-//        ArrayList<String> y = new ArrayList<>();
-//        y.add("7");
-//        y.add("5");
-//        ArrayList<Boolean> q = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i2 = new ArrayList<String>();
-//        i2.add("23");
-//        i2.add("33");
-//        ArrayList<Object> p2 = new ArrayList<Object>();
-//        p2.add("24");
-//        p2.add("35");
-//        ArrayList<Boolean> q2 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i3 = new ArrayList<String>();
-//        i3.add("21");
-//        i3.add("32");
-//        ArrayList<Object> p3 = new ArrayList<Object>();
-//        p3.add("25");
-//        ArrayList<Boolean> q3 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i4 = new ArrayList<String>();
-//        i4.add("27");
-//        i4.add("37");
-//        ArrayList<Object> p4 = new ArrayList<Object>();
-//        p4.add("28");
-//        ArrayList<Boolean> q4 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i5 = new ArrayList<String>();
-//        i5.add("29");
-//        i5.add("39");
-//        ArrayList<Object> p5 = new ArrayList<Object>();
-//        p5.add("212");
-//        ArrayList<Boolean> q5 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i6 = new ArrayList<String>();
-//        i6.add("232");
-//        i6.add("332");
-//        ArrayList<Object> p6 = new ArrayList<Object>();
-//        p6.add("211");
-//        ArrayList<Boolean> q6 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i7 = new ArrayList<String>();
-//        i7.add("255");
-//        i7.add("344");
-//        ArrayList<Object> p7 = new ArrayList<Object>();
-//        p7.add("266");
-//        ArrayList<Boolean> q7 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i8 = new ArrayList<String>();
-//        i8.add("277");
-//        i8.add("377");
-//        ArrayList<Object> p8 = new ArrayList<Object>();
-//        p8.add("265");
-//        ArrayList<Boolean> q8 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i9 = new ArrayList<String>();
-//        i9.add("256");
-//        i9.add("356");
-//        ArrayList<Object> p9 = new ArrayList<Object>();
-//        p9.add("278");
-//        ArrayList<Boolean> q9 = new ArrayList<Boolean>();
-//
-//        ArrayList<String> i10 = new ArrayList<String>();
-//        i10.add("287");
-//        i10.add("387");
-//        ArrayList<Object> p10 = new ArrayList<Object>();
-//        p10.add("290");
-//        ArrayList<Boolean> q10 = new ArrayList<Boolean>();
-//
-//        String[] a = {"p", "u", "z"};
-//        for (int ia = 0; ia < 3; ia++){
-//            System.out.println(a[ia]);
-//        }
-//        int[] b = new int[]{0, 8, 3};
-//        for (int r:b) {
-//            System.out.println(i);
-//        }
-//        boolean[] c = new boolean[]{false};
-//
-//        String[] a2 = {"o", "u", "z"};
-//        for (int ia2 = 0; ia2 < 3; ia2++){
-//            System.out.println(a[ia2]);
-//        }
-//        int[] b1 = new int[]{0, 8, 3};
-//        for (int r:b1) {
-//            System.out.println(i);
-//        }
-//        boolean[] c1 = new boolean[]{true};
-//
-//        String[] a3 = {"h", "u", "z"};
-//        for (int ia3 = 0; ia3 < 3; ia3++){
-//            System.out.println(a[ia3]);
-//        }
+        ArrayList<String> i = new ArrayList<String>();
+        i.add("2");
+        i.add("3");
+        i.add("4");
+        for (String y:i) {
+            System.out.println(i);
+        }
+        ArrayList<String> y = new ArrayList<>();
+        y.add("7");
+        y.add("5");
+        ArrayList<Boolean> q = new ArrayList<Boolean>();
+
+        ArrayList<String> i2 = new ArrayList<String>();
+        i2.add("23");
+        i2.add("33");
+        ArrayList<Object> p2 = new ArrayList<Object>();
+        p2.add("24");
+        p2.add("35");
+        ArrayList<Boolean> q2 = new ArrayList<Boolean>();
+
+        ArrayList<String> i3 = new ArrayList<String>();
+        i3.add("21");
+        i3.add("32");
+        ArrayList<Object> p3 = new ArrayList<Object>();
+        p3.add("25");
+        ArrayList<Boolean> q3 = new ArrayList<Boolean>();
+
+        ArrayList<String> i4 = new ArrayList<String>();
+        i4.add("27");
+        i4.add("37");
+        ArrayList<Object> p4 = new ArrayList<Object>();
+        p4.add("28");
+        ArrayList<Boolean> q4 = new ArrayList<Boolean>();
+
+        ArrayList<String> i5 = new ArrayList<String>();
+        i5.add("29");
+        i5.add("39");
+        ArrayList<Object> p5 = new ArrayList<Object>();
+        p5.add("212");
+        ArrayList<Boolean> q5 = new ArrayList<Boolean>();
+
+        ArrayList<String> i6 = new ArrayList<String>();
+        i6.add("232");
+        i6.add("332");
+        ArrayList<Object> p6 = new ArrayList<Object>();
+        p6.add("211");
+        ArrayList<Boolean> q6 = new ArrayList<Boolean>();
+
+        ArrayList<String> i7 = new ArrayList<String>();
+        i7.add("255");
+        i7.add("344");
+        ArrayList<Object> p7 = new ArrayList<Object>();
+        p7.add("266");
+        ArrayList<Boolean> q7 = new ArrayList<Boolean>();
+
+        ArrayList<String> i8 = new ArrayList<String>();
+        i8.add("277");
+        i8.add("377");
+        ArrayList<Object> p8 = new ArrayList<Object>();
+        p8.add("265");
+        ArrayList<Boolean> q8 = new ArrayList<Boolean>();
+
+        ArrayList<String> i9 = new ArrayList<String>();
+        i9.add("256");
+        i9.add("356");
+        ArrayList<Object> p9 = new ArrayList<Object>();
+        p9.add("278");
+        ArrayList<Boolean> q9 = new ArrayList<Boolean>();
+
+        ArrayList<String> i10 = new ArrayList<String>();
+        i10.add("287");
+        i10.add("387");
+        ArrayList<Object> p10 = new ArrayList<Object>();
+        p10.add("290");
+        ArrayList<Boolean> q10 = new ArrayList<Boolean>();
+
+        String[] a = {"p", "u", "z"};
+        for (int ia = 0; ia < 3; ia++){
+            System.out.println(a[ia]);
+        }
+        int[] b = new int[]{0, 8, 3};
+        for (int r:b) {
+            System.out.println(i);
+        }
+        boolean[] c = new boolean[]{false};
+
+        String[] a2 = {"o", "u", "z"};
+        for (int ia2 = 0; ia2 < 3; ia2++){
+            System.out.println(a[ia2]);
+        }
+        int[] b1 = new int[]{0, 8, 3};
+        for (int r:b1) {
+            System.out.println(i);
+        }
+        boolean[] c1 = new boolean[]{true};
+
+        String[] a3 = {"h", "u", "z"};
+        for (int ia3 = 0; ia3 < 3; ia3++){
+            System.out.println(a[ia3]);
+        }
         int[] b3 = new int[]{0, 8, 3};
         for (int r:b3) {
             System.out.println(r);
