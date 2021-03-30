@@ -1,4 +1,8 @@
+import Char.Char;
+
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class JavaDataTypes {
     public static void main(String[] args) {
@@ -107,6 +111,42 @@ public class JavaDataTypes {
         l7.add(123.3);
         for (double k : l7) {
             System.out.println(k);
+        }
+        List<Boolean> as1 = Arrays.asList(false,true,true);
+        for (boolean m : as1) {
+            System.out.println(m);
+        }
+//        List<Byte> as2 = Arrays.asList(1,2,3,4,5);
+//        for (byte m : as2) {
+//            System.out.println(m);
+//        }
+        List<Float> as3 = Arrays.asList(1.3f,23.4f);
+        for (float m : as3) {
+            System.out.println(m);
+        }
+        List<String> as4 = Arrays.asList("Сонце","Місяць","Марс","Сатурн");
+        for (int p = 0; p < as4.size(); p++) {
+            System.out.println(l4.get(p));
+        }
+        List<Double> as5 = Arrays.asList(5.5,6.8,8.9,768.9);
+        for (double m : as5) {
+            System.out.println(m);
+        }
+//        List<Char> as6 = Arrays.asList(0,65535);
+//        for (char m : as6) {
+//            System.out.println(m);
+//        }
+        List<Integer> as7 = Arrays.asList(235,44646,834739,89458,8584);
+        for (int m : as7) {
+            System.out.println(m);
+        }
+        List<Integer> as8 = Arrays.asList(34535357,3329329);
+        for (long m : as8) {
+            System.out.println(m);
+        }
+        List<Integer> as9 = Arrays.asList(1000,999);
+        for (int p = 0; p < as9.size(); p++) {
+            System.out.println(l4.get(p));
         }
 
     }
