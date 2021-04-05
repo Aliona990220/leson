@@ -2,9 +2,9 @@ import java.util.Locale;
 
 public class Leson {
     public static void main(String[] args) {
-//        String a = "привіт";
-//        a = a.toUpperCase();
-//        System.out.println(a);
+        String a = "привіт";
+        a = a.toUpperCase();
+        System.out.println(a);
         String string1 = "Привіт";
         String string2 = " Бувай";
         String string3 = " Як справи?";
