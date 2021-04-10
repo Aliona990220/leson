@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class KeywordFinal {
+public class
+KeywordFinal {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите число");

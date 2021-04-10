@@ -4,7 +4,8 @@ public class ArrTen {
         ArrayList<Integer> v = new ArrayList<>();
         int i = 1;
         while (i++<101){
-            System.out.println(i);
+            v.add(i);
         }
+        System.out.print(v);
     }
 }
