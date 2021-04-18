@@ -12,10 +12,10 @@ public class Calculator {
     }
 
     public float calculate(float a, float b, String operation) {
-        float c = a + b;
-        float d = a - b;
-        float p = a * b;
-        float q = a / b;
+        final float c = a + b;
+        final float d = a - b;
+        final float p = a * b;
+        final float q = a / b;
         if (operation.equals("+")) {
             return c;
         }
