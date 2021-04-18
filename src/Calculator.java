@@ -12,20 +12,20 @@ public class Calculator {
     }
 
     public float calculate(float a, float b, String operation) {
-        final float c = a + b;
-        final float d = a - b;
-        final float p = a * b;
-        final float q = a / b;
         if (operation.equals("+")) {
+            float c = a + b;
             return c;
         }
         if (operation.equals("-")) {
+            float d = a - b;
             return d;
         }
         if (operation.equals("*")) {
+            float p = a * b;
             return p;
         }
         if (operation.equals("/")) {
+            float q = a / b;
             return q;
         }
         return 0;
@@ -36,7 +36,6 @@ public class Calculator {
         calculato.scan();
         float res = calculato.calculate(calculato.a, calculato.b, calculato.operation);
         System.out.println(res);
-
     }
 }
 
