@@ -13,20 +13,16 @@ public class Calculator {
 
     public float calculate(float a, float b, String operation) {
         if (operation.equals("+")) {
-            float c = a + b;
-            return c;
+            return a + b;
         }
         if (operation.equals("-")) {
-            float d = a - b;
-            return d;
+            return  a - b;
         }
         if (operation.equals("*")) {
-            float p = a * b;
-            return p;
+            return a * b;
         }
         if (operation.equals("/")) {
-            float q = a / b;
-            return q;
+            return a / b;
         }
         return 0;
     }
