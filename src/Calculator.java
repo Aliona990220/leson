@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 public class Calculator {
     public int a;
@@ -5,9 +6,12 @@ public class Calculator {
     public String operation;
     public void scan() {
         Scanner sca = new Scanner(System.in);
+        System.out.println("Введіть число а ");
         a = sca.nextInt();
+        System.out.println("Введіть число b ");
         b = sca.nextInt();
         sca.nextLine();
+        System.out.println("Введіть операцію ");
         operation = sca.nextLine();
     }
 
@@ -16,7 +20,7 @@ public class Calculator {
             return a + b;
         }
         if (operation.equals("-")) {
-            return  a - b;
+            return a - b;
         }
         if (operation.equals("*")) {
             return a * b;
@@ -24,9 +28,13 @@ public class Calculator {
         if (operation.equals("/")) {
             return a / b;
         }
+        try {
+            a = 0;
+        } catch (ArithmeticException e){
+            System.out.println("неможливе ділення на нуль");
+        }
         return 0;
     }
-
     public static void main(String[] args) {
         Calculator calculato = new Calculator();
         calculato.scan();
