@@ -7,39 +7,33 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\WebDrayver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(10 ,TimeUnit SECONDS);
+        WebDriverWait wait = new WebDriverWait (driver, 1000);
 
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
         try {
-            driver.get("https://pagination.js.org/");
-            Thread.sleep(2000);
+            driver.get("http://127.0.0.1:5500/index.html");
+            Thread.sleep(5000);
 
-            List<WebElement> elements = driver.findElements(By.xpath("//div[@class='data-container']/ul/li"));
-            List<WebElement> pages = driver.findElements(By.xpath("//div[@class='paginationjs-pages']/ul/li"));
-            String text = elements.get(5).getText();
-            System.out.println(text);
+            WebElenent elenent = driver.findElenent(By id("a"));
+            WebElenent elenent2 = driver.findElenent(By id("b"));
+            WebElenent elenent3 = driver.findElenent(By id("c"));
 
-            pages.get(2).click();
-            wait.until(ExpectedConditions.stalenessOf(elements.get(5)));
+            elenent.click();
 
-            elements = driver.findElements(By.xpath("//div[@class='data-container']/ul/li"));
 
-            text = elements.get(5).getText();
-            System.out.println(text);
+            Alert alert = wait.until();
 
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } finally {
-            driver.quit();
-        }
+
+
+
+
+
+
 
 
 
